@@ -1,0 +1,93 @@
+#form-r-input {
+    width: 0;
+    height: 0;
+    padding: 0;
+    color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    outline: none;
+}
+
+.r-button-selected {
+    outline: #d29a6f solid 1px !important;
+}
+
+.input-section {
+    display: flex;
+    background-color: #FFF5E4;
+    padding: 1rem 2rem 2rem 2rem;
+    border: 5px solid #faeacf;
+    border-radius: 1rem;
+}
+
+.input-section, form[name="form"] {
+    max-height: 5%;
+}
+
+.main-holder {
+    display: flex;
+}
+
+.main-holder > section {
+    margin: 10px;
+}
+
+input, select {
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: #faeacf;
+    padding: 8px;
+    transition: all 0.1s;
+}
+
+input[type=button], input[type=submit] {
+    transition: all 0.1s;
+}
+input[type=button]:hover, input[type=submit]:hover {
+    scale: 1.05;
+    transition: all 0.1s;
+}
+
+input[type=button]:active, input[type=submit]:active {
+    scale: 0.95;
+    transition: all 0.1s;
+}
+
+header {
+    padding: 2rem;
+    font-size: medium;
+}
+
+#table, td, tr {
+    text-align: center;
+}
+
+td, tr {
+    background-color: #faeacf;
+    padding: 6px;
+    border-radius: 10px;
+    max-height: 1rem;
+}
+
+#table {
+    padding: 1rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 12rem;
+    margin: 2rem;
+    text-align: center;
+    background-color: #FFF5E4;
+    border-color: #d29a6f;
+    border-radius: 1rem;
+    overflow-y: auto;
+
+    border: 5px solid #faeacf;
+}
+
+body {
+    min-height: 45rem;
+}
